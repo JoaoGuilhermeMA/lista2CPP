@@ -16,11 +16,11 @@ int main()
 
     cout << "O valor do seu carro e de: " << precoCarro << " reais." << endl;
     if(anoCarro < 1990){
-        taxaCarro = 1.01;
+        taxaCarro = 0.1;
         precoCarro *= taxaCarro;
     }else{
-        taxaCarro = 1.015;
+        taxaCarro = 0.15;
         precoCarro *= taxaCarro;
     }
-        cout << "O valor do seu carro com os impostos vai ser de " << precoCarro << " reais" << endl;
+        cout << "O valor do imposto do seu carro vai ser de " << precoCarro << " reais" << endl;
 }
