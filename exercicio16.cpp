@@ -8,7 +8,7 @@ int main() {
     cin >> idade;
 
     if(idade < 18){
-        cout << "falta " << 18 - idade << " ano para voce poder tirar a carteira de motorista" << endl;
+        cout << "falta " << 18 - idade << " anos para voce poder tirar a carteira de motorista" << endl;
     }else{
         cout << "Pode tirar a carteira";
     }
